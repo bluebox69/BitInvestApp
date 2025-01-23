@@ -1,0 +1,44 @@
+/* 
+  Localizable.strings
+  BitInvestmentApp
+
+  Created by Paul Kogler on 22.01.25.
+  
+*/
+"lastUpdate" = "Last Update: %@";
+"unkown" = "Unkown Date";
+"currentTPortfolioValue" = "Portfolio Value";
+"investments" = "Investments";
+"totalCash" = "Total Cash: $%.2f";
+"portfolioOrCoinDataError" = "Portfolio or Coin data is not available";
+"buy" = "Buy";
+"sell" = "Sell";
+"transactions" = "Transactions";
+
+"loadingPortfolio" = "Loading Portfolio..";
+"loadingCoinValue" = "Loading Coin-Value";
+
+
+"currentCoinValue" = "Current Coin-Value: $%@";
+"moneyWarning" = "You are out of Money!";
+"warning" = "Warning";
+"ok" = "OK";
+"home" = "Home";
+"settings" = "Settings";
+"cashAmount" = "Cash Amount";
+
+"amountInDollar" = "Amount in $";
+"investAll" = "Invest All";
+"enterDollarAmount" = "Enter Dollar Amount to Invest";
+"receive_bitcoin" = "You will receive approximately %.6f BTC";
+"confirm" = "Confirm";
+"receiveDollar" = "You will receive approximately %.6f BTC";
+
+"coinAmount" = "Coin Amount";
+"sellAllCoins" = "Sell All Coins";
+"enterCoinAmount" = "Enter Coin Amount to Sell";
+
+"addMoney" = "Add Money To Your Account";
+"deposit" = "Deposit";
+"resetPortfolioInfo" = "Reset All Data And Delete All Investments";
+"resetPortfolio" = "Reset Portfolio";
