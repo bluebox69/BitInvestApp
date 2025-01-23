@@ -48,15 +48,15 @@
 		9920D02C2D3A574300209023 /* BitInvestmentApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BitInvestmentApp.xcdatamodel; sourceTree = "<group>"; };
 		9920D0352D3A58A200209023 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		9920D0372D3A5A2B00209023 /* CoinAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinAPI.swift; sourceTree = "<group>"; };
-		9920D03F2D3A652300209023 /* CoinEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoinEntity+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		9920D0402D3A652300209023 /* CoinEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoinEntity+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		9920D03F2D3A652300209023 /* CoinEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CoinEntity+CoreDataClass.swift"; path = "BitInvestmentApp/Model/CoreData/CoinEntity+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		9920D0402D3A652300209023 /* CoinEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CoinEntity+CoreDataProperties.swift"; path = "BitInvestmentApp/Model/CoreData/CoinEntity+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		9920D0482D3A69D800209023 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		9920D04A2D3A6CE900209023 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		9920D04C2D3A71D200209023 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
-		9920D0542D3A769C00209023 /* PortfolioEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PortfolioEntity+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		9920D0552D3A769C00209023 /* PortfolioEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PortfolioEntity+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
-		9920D05C2D3A7A7F00209023 /* InvestmentEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InvestmentEntity+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		9920D05D2D3A7A7F00209023 /* InvestmentEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InvestmentEntity+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		9920D0542D3A769C00209023 /* PortfolioEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PortfolioEntity+CoreDataClass.swift"; path = "BitInvestmentApp/Model/CoreData/PortfolioEntity+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		9920D0552D3A769C00209023 /* PortfolioEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PortfolioEntity+CoreDataProperties.swift"; path = "BitInvestmentApp/Model/CoreData/PortfolioEntity+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		9920D05C2D3A7A7F00209023 /* InvestmentEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "InvestmentEntity+CoreDataClass.swift"; path = "BitInvestmentApp/Model/CoreData/InvestmentEntity+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		9920D05D2D3A7A7F00209023 /* InvestmentEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "InvestmentEntity+CoreDataProperties.swift"; path = "BitInvestmentApp/Model/CoreData/InvestmentEntity+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		9920D0662D3A86EF00209023 /* InvestmentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentCard.swift; sourceTree = "<group>"; };
 		9920D0682D3AA5C600209023 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		9920D06A2D3AA5F600209023 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -90,7 +90,6 @@
 		9920D0142D3A574200209023 = {
 			isa = PBXGroup;
 			children = (
-				9920D07A2D3EE13300209023 /* Utils */,
 				9920D01F2D3A574200209023 /* BitInvestmentApp */,
 				9920D01E2D3A574200209023 /* Products */,
 			);
@@ -107,21 +106,14 @@
 		9920D01F2D3A574200209023 /* BitInvestmentApp */ = {
 			isa = PBXGroup;
 			children = (
-				9920D05C2D3A7A7F00209023 /* InvestmentEntity+CoreDataClass.swift */,
-				9920D05D2D3A7A7F00209023 /* InvestmentEntity+CoreDataProperties.swift */,
-				9920D0542D3A769C00209023 /* PortfolioEntity+CoreDataClass.swift */,
-				9920D0552D3A769C00209023 /* PortfolioEntity+CoreDataProperties.swift */,
-				9920D0432D3A654900209023 /* ViewModel */,
-				9920D03F2D3A652300209023 /* CoinEntity+CoreDataClass.swift */,
-				9920D0402D3A652300209023 /* CoinEntity+CoreDataProperties.swift */,
-				9920D0342D3A583200209023 /* View */,
+				9920D08D2D42AE2A00209023 /* Resources */,
+				9920D07A2D3EE13300209023 /* Utils */,
 				9920D0332D3A582B00209023 /* Model */,
+				9920D0432D3A654900209023 /* ViewModel */,
+				9920D0342D3A583200209023 /* View */,
 				9920D0202D3A574200209023 /* BitInvestmentAppApp.swift */,
-				9920D0242D3A574300209023 /* Assets.xcassets */,
 				9920D02B2D3A574300209023 /* BitInvestmentApp.xcdatamodeld */,
 				9920D0262D3A574300209023 /* Preview Content */,
-				9920D0482D3A69D800209023 /* MainTabView.swift */,
-				9920D04C2D3A71D200209023 /* PersistenceController.swift */,
 			);
 			path = BitInvestmentApp;
 			sourceTree = "<group>";
@@ -137,8 +129,11 @@
 		9920D0332D3A582B00209023 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9920D08C2D42AE1100209023 /* CoreData */,
+				9920D04C2D3A71D200209023 /* PersistenceController.swift */,
 				9920D0352D3A58A200209023 /* Coin.swift */,
 				9920D0372D3A5A2B00209023 /* CoinAPI.swift */,
+				9920D0822D40377600209023 /* DataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -146,6 +141,7 @@
 		9920D0342D3A583200209023 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9920D08A2D42ACDC00209023 /* Routing */,
 				9920D0642D3A86C800209023 /* components */,
 				9920D06A2D3AA5F600209023 /* HomeView.swift */,
 				9920D06C2D3ABCBE00209023 /* BuyView.swift */,
@@ -183,10 +179,38 @@
 			children = (
 				9920D07C2D3EE15600209023 /* rounded.swift */,
 				9920D0802D40240E00209023 /* NotificationManager.swift */,
-				9920D0822D40377600209023 /* DataModel.swift */,
-				9920D0862D40CDFE00209023 /* Localizable.strings */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		9920D08A2D42ACDC00209023 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				9920D0482D3A69D800209023 /* MainTabView.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		9920D08C2D42AE1100209023 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				9920D03F2D3A652300209023 /* CoinEntity+CoreDataClass.swift */,
+				9920D0402D3A652300209023 /* CoinEntity+CoreDataProperties.swift */,
+				9920D05C2D3A7A7F00209023 /* InvestmentEntity+CoreDataClass.swift */,
+				9920D05D2D3A7A7F00209023 /* InvestmentEntity+CoreDataProperties.swift */,
+				9920D0542D3A769C00209023 /* PortfolioEntity+CoreDataClass.swift */,
+				9920D0552D3A769C00209023 /* PortfolioEntity+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		9920D08D2D42AE2A00209023 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9920D0242D3A574300209023 /* Assets.xcassets */,
+				9920D0862D40CDFE00209023 /* Localizable.strings */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
